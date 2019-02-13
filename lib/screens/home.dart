@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:newflatter/screens/account.dart';
 import 'package:newflatter/screens/settings.dart';
 
+
 class HomeScreen extends StatefulWidget {
   @override
   HomeScreenState createState() => new HomeScreenState();
@@ -9,7 +10,7 @@ class HomeScreen extends StatefulWidget {
 
 class HomeScreenState extends State<HomeScreen> {
   Drawer getNavDrawer(BuildContext context) {
-    var headerChild = new DrawerHeader(child:  new Icon(Icons.adb));
+    var headerChild = new DrawerHeader(child:  new Text("Your Name"));
     var aboutChild = new AboutListTile(
         child: new Text("About"),
         applicationName: "Application Name",
