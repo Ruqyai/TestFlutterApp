@@ -1,8 +1,5 @@
 # TestFlutterApp
 
-A new Flutter project.
+## A Flutter project to create navigation drawer.
 
-## Getting Started
-
-For help getting started with Flutter, view our online
-[documentation](https://flutter.io/).
+![Screenshot](screenshot.PNG)
